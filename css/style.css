@@ -27,17 +27,26 @@ h3 {
 .header {
     text-align: center;
     top: auto;
-    margin: 3em auto;
+    margin: 1em auto;
+    color: #FCFCFC;
 }
 
 #sidebar {
     background: #00B9BD;
-    color: #fff;
+    color: #FCFCFC;
 }
 
-#tagline {
+#tagline a, #tagline a:active {
     font-weight: 300;
     color: #007E80;
+}
+
+#tagline a:hover {
+    color: #FCFCFC;
+}
+
+.fa {
+    margin: 0em 0.2em;
 }
 
 #nav-list {
@@ -101,9 +110,10 @@ small {
     margin: 0;
 }
 
-#footer {
+footer {
     text-align: center;
     padding: 1em 0;
+    color: #CCCCCC;
 }
 #footer a {
     color: #ccc;
