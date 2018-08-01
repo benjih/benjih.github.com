@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
+import Header from './components/header'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>benjih</h1>
+        <Header>benjih</Header>
         <div id="social">
           <a href="http://www.twitter.com/_benjih">
             <i class="fa fa-twitter" aria-hidden="true"></i>
