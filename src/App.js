@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <h1>benjih</h1>
+        <div id="social">
+          <a href="http://www.twitter.com/_benjih">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a> <a href="http://www.github.com/benjih">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div id="border"></div>
+        <div id="content">
+          <p>Dropping anchors with <a href="//ankyra.io">Ankyra</a></p>
+          <p>I've spent a lot of time previously working on <a href="//github.com/SpectoLabs/hoverfly">Hoverfly</a>, an open source service virtualization tool built in Golang.</p>
+        </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
