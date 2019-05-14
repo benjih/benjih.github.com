@@ -16,7 +16,7 @@ class App extends Component {
         </div>
         <div id="border"></div>
         <div id="content">
-          <p>Dropping anchors with <a href="//ankyra.io">Ankyra</a></p>
+          <p>Formly dropping anchors with <a href="//ankyra.io">Ankyra</a></p>
           <p>I've spent a lot of time previously working on <a href="//github.com/SpectoLabs/hoverfly">Hoverfly</a>, an open source service virtualization tool built in Golang.</p>
         </div>
       </div>
